@@ -54,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyRegistration.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="companyRegistration.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/companyRegistration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75862" vertical-offset="256" max-vertical-offset="1547">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.4595661" vertical-offset="311" max-vertical-offset="1564">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyRegistration.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="companyRegistration.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/companyRegistration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23333333" vertical-offset="1241" max-vertical-offset="1904">
-              <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="1292" max-vertical-offset="1904">
+              <caret line="87" column="54" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/layout/include/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/layout/layout.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/layout/include/js.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/companyRegistration.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/layout/include/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/companyRegistration.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/companyRegistration.js" />
       </list>
     </option>
@@ -892,12 +892,12 @@
       <workItem from="1587358986022" duration="18113000" />
       <workItem from="1587383638844" duration="611000" />
       <workItem from="1587389266652" duration="1995000" />
-      <workItem from="1587439558497" duration="14371000" />
+      <workItem from="1587439558497" duration="15551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35090000" />
+    <option name="totallyTimeSpent" value="36270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
@@ -1306,18 +1306,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/companyRegistration.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/companyRegistration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75862" vertical-offset="256" max-vertical-offset="1547">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="1292" max-vertical-offset="1904">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/companyRegistration.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/companyRegistration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23333333" vertical-offset="1241" max-vertical-offset="1904">
-          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.4595661" vertical-offset="311" max-vertical-offset="1564">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
           <folding />
         </state>
       </provider>

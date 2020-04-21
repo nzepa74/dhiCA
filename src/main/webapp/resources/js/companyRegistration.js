@@ -38,7 +38,8 @@ companyRegistration = (function () {
                 errorElement: 'span',
                 errorPlacement: function (error, element) {
                     error.addClass('invalid-feedback');
-                    element.closest('.row').append(error);
+                    element.closest('.col-sm-10').append(error);
+                    element.closest('.custom-checkbox').append(error);
                 },
                 highlight: function (element, errorClass, validClass) {
                     $(element).addClass('is-invalid');
