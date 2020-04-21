@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * Created by nzepa on 4/20/2020.
  */
+
 @Controller
 @RequestMapping("/companyRegistration")
 public class CompanyRegistrationController {
@@ -21,7 +22,6 @@ public class CompanyRegistrationController {
     private CompanyRegistrationService companyRegistrationService;
 
     ResponseMessage responseMessage;
-
 
     @RequestMapping(method = {RequestMethod.GET, RequestMethod.HEAD})
     public String index() {

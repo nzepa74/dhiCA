@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="<c:url value='/resources/plugins/icheck-bootstrap/icheck-bootstrap.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/plugins/jqvmap/jqvmap.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/adminlte.min.css' />"/>
+<link rel="stylesheet" href="<c:url value='/resources/dist/css/adminlte.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/plugins/overlayScrollbars/css/OverlayScrollbars.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/plugins/daterangepicker/daterangepicker.css' />"/>
 

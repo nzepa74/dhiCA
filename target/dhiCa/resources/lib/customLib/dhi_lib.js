@@ -18,7 +18,7 @@ alertify.dialog(
     'successAlert', function factory() {
         return {
             build: function () {
-                var successHeader = '<span class="fa fa-check-square-o successMsg gi-2x" ' +
+                var successHeader = '<span class="icon fas fa-check successMsg gi-2x" ' +
                     'style="vertical-align:middle;">' +
                     '</span> Application Success';
                 this.setHeader(successHeader);
@@ -66,7 +66,7 @@ alertify.dialog(
     'warningAlert', function factory() {
         return {
             build: function () {
-                var successHeader = '<span class="fa fa-warning warningMsg gi-2x" ' +
+                var successHeader = '<span class="icon fas fa-exclamation-triangle warningMsg gi-2x" ' +
                     'style="vertical-align:middle;">' +
                     '</span> Application Warning';
                 this.setHeader(successHeader);
