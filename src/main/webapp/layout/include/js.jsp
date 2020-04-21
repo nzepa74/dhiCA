@@ -3,6 +3,7 @@
 <script type="text/javascript" src="<c:url value='/resources/plugins/jquery/jquery.min.js'/>"></script>
 
 <script type="text/javascript" src="<c:url value='/resources/plugins/jquery-ui/jquery-ui.min.js'/>"></script>
+
 <script type="text/javascript" src="<c:url value='/resources/plugins/bootstrap/js/bootstrap.bundle.min.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/resources/plugins/chart.js/Chart.min.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/resources/plugins/sparklines/sparkline.js'/>"></script>
@@ -19,10 +20,12 @@
 <script type="text/javascript" src="<c:url value='/resources/dist/js/pages/dashboard.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/resources/dist/js/demo.js'/>"></script>
 
-<script type="text/javascript" src="<c:url value='/resources/lib/jquery.validate.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/resources/plugins/jquery-validation/jquery.validate.min.js'/>"></script>
+
 <script type="text/javascript" src="<c:url value='/resources/lib/alertify.new.min.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/resources/lib/nprogress.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/resources/lib/jquery.blockUI.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/resources/lib/datepicker.min.js'/>"></script>
 
 <script type="text/javascript" src="<c:url value='/resources/lib/customLib/dhi_lib.js' />"></script>
 <script type="text/javascript" src="<c:url value='/resources/lib/customLib/globalConf.js' />"></script>

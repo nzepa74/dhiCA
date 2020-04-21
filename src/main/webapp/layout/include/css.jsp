@@ -15,6 +15,7 @@
 <%--<link rel="stylesheet" href="<c:url value='/resources/css/dataTable/buttons.dataTables.min.css' />"/>--%>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/nprogress.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/alertify.min.css' />"/>
+<link rel="stylesheet" href="<c:url value='/resources/dist/css/datepicker.css' />"/>
 
 
 
