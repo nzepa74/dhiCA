@@ -11,75 +11,71 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Register Company</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="hold-transition sidebar-mini">
 
-<div class="content-header">
-    <div class="container-fluid">
-        <div class="row mb-2">
-            <div class="col-sm-6">
-                <h4 class="m-0 text-dark">Company Registration</h4>
-            </div>
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard v1</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-</div>
-
-<form role="form" id="companyRegistrationFormId" class="card" action="<c:url value='/companyRegistration'/>"
+<form role="form" id="companyRegistrationFormId" action="<c:url value='/companyRegistration'/>"
       method="post">
-    <div class="card-body">
+    <div class="card">
+        <div class="card-body">
 
-        <div class="form-group row">
-            <label for="companyId" class="col-sm-2 col-form-label">Company Id</label>
+            <div class="form-group row">
+                <label for="companyId" class="col-sm-2 col-form-label">Company Id</label>
 
-            <div class="col-sm-10">
-                <input type="text" class="form-control" name="companyId" id="companyId">
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label for="companyName" class="col-sm-2 col-form-label">Company Name</label>
-
-            <div class="col-sm-10">
-                <input type="text" class="form-control" name="companyName" id="companyName">
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-sm-2 col-form-label"></label>
-
-            <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
-            </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <div class="table-responsive">
-                        <table class="table card-table table-vcenter text-nowrap table-bordered"
-                               id="listTableId">
-                            <thead>
-                            <tr>
-                                <th>Sl. No</th>
-                                <th>Company ID</th>
-                                <th>Company Name</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="companyId" id="companyId">
                 </div>
             </div>
-        </div>
 
+            <div class="form-group row">
+                <label for="companyName" class="col-sm-2 col-form-label">Company Name</label>
+
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="companyName" id="companyName">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label"></label>
+
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
+                </div>
+            </div>
+            <section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Company List</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <table id="listTableId" class="table table-bordered table-striped table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>Rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>Platform(s)</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </section>
+        </div>
     </div>
 </form>
 

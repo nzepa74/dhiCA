@@ -7,14 +7,10 @@
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/adminlte.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/adminlte.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/plugins/overlayScrollbars/css/OverlayScrollbars.min.css' />"/>
+
 <link rel="stylesheet" href="<c:url value='/resources/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/plugins/datatables-responsive/css/responsive.bootstrap4.min.css' />"/>
 
-
-<link rel="stylesheet" href="<c:url value='/resources/plugins/summernote/summernote-bs4.css' />"/>
-<%--<link rel="stylesheet" href="<c:url value='/resources/css/dataTable/editor.dataTables.min.css' />"/>--%>
-<%--<link rel="stylesheet" href="<c:url value='/resources/css/dataTable/select.dataTables.min.css' />"/>--%>
-<%--<link rel="stylesheet" href="<c:url value='/resources/css/dataTable/buttons.dataTables.min.css' />"/>--%>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/nprogress.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/alertify.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/datepicker.css' />"/>
