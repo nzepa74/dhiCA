@@ -8,6 +8,8 @@ import dhi.ca.ttpl.helper.ResponseMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by nzepa on 4/20/2020.
  */
@@ -26,6 +28,16 @@ public class CompanyRegistrationService {
         companyRegistrationDao.saveCompanyRegistration(companyRegistration);
         responseMessage.setResponseStatus(SystemDataInt.MESSAGE_STATUS_SUCCESSFUL.value());
         responseMessage.setResponseText("Saved Successfully");
+        return responseMessage;
+    }
+
+    public ResponseMessage getList() {
+        ResponseMessage responseMessage = new ResponseMessage();
+        List<CompanyRegistrationDTO> companyRegistrationDTOs = companyRegistrationDao.getList();
+        if (companyRegistrationDTOs != null) {
+            responseMessage.setResponseStatus(SystemDataInt.MESSAGE_STATUS_SUCCESSFUL.value());
+            responseMessage.setResponseDTO(companyRegistrationDTOs);
+        }
         return responseMessage;
     }
 }

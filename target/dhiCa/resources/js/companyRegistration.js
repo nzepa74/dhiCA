@@ -3,14 +3,12 @@ companyRegistration = (function () {
     var form = $('#companyRegistrationFormId');
     var isSubmitted = false;
 
-
     function _baseURL() {
         return 'companyRegistration/';
     }
 
     function saveCompanyRegistration() {
         $('#btnSave').on('click', function () {
-
             $.validator.setDefaults({
                 submitHandler: function () {
                     var url = _baseURL() + 'saveCompanyRegistration';
@@ -71,12 +69,43 @@ companyRegistration = (function () {
         });
     }
 
+    function getList() {
+        var url = _baseURL() + 'getList';
+        $.ajax({
+            url: url,
+            type: 'GET',
+            success: function (res) {
+                if (res.responseStatus == 1) {
+                    var data = res.responseDTO;
+                    var dataTableDefinition = [
+                        {
+                            "mRender": function (data, type, row, meta) {
+                                return meta.row + 1;
+                            }
+                        }
+                        , {"data": "companyId", class: "companyId"}
+                        , {"data": "companyName", class: "companyName"}
+                    ];
+                    $('#listTableId').DataTable({
+                        data: data
+                        , columns: dataTableDefinition
+                        , destroy: true
+                        , bSort: false
+                        //, pageLength: 50
+                    });
+                }
+            }
+        });
+    }
+
     return {
         saveCompanyRegistration: saveCompanyRegistration
+        ,getList: getList
     }
 })
 ();
 $(document).ready(
     function () {
         companyRegistration.saveCompanyRegistration();
+        companyRegistration.getList();
     });

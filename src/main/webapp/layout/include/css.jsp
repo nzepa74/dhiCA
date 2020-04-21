@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/adminlte.min.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/dist/css/adminlte.css' />"/>
 <link rel="stylesheet" href="<c:url value='/resources/plugins/overlayScrollbars/css/OverlayScrollbars.min.css' />"/>
-<link rel="stylesheet" href="<c:url value='/resources/plugins/daterangepicker/daterangepicker.css' />"/>
+<link rel="stylesheet" href="<c:url value='/resources/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css' />"/>
+<link rel="stylesheet" href="<c:url value='/resources/plugins/datatables-responsive/css/responsive.bootstrap4.min.css' />"/>
 
 
 <link rel="stylesheet" href="<c:url value='/resources/plugins/summernote/summernote-bs4.css' />"/>

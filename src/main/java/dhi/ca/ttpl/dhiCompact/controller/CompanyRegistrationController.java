@@ -35,4 +35,10 @@ public class CompanyRegistrationController {
         return responseMessage;
     }
 
+    @ResponseBody
+    @RequestMapping(value = "/getList", method = RequestMethod.GET)
+    public ResponseMessage getList() throws Exception {
+        responseMessage = companyRegistrationService.getList();
+        return responseMessage;
+    }
 }

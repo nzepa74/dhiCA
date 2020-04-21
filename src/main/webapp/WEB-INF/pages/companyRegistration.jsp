@@ -58,6 +58,28 @@
                 <button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
             </div>
         </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table card-table table-vcenter text-nowrap table-bordered"
+                               id="listTableId">
+                            <thead>
+                            <tr>
+                                <th>Sl. No</th>
+                                <th>Company ID</th>
+                                <th>Company Name</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </form>
 

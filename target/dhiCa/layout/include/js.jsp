@@ -21,6 +21,10 @@
 <script type="text/javascript" src="<c:url value='/resources/dist/js/demo.js'/>"></script>
 
 <script type="text/javascript" src="<c:url value='/resources/plugins/jquery-validation/jquery.validate.min.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/resources/plugins/datatables/jquery.dataTables.min.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/resources/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/resources/plugins/datatables-responsive/js/dataTables.responsive.min.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/resources/plugins/datatables-responsive/js/responsive.bootstrap4.min.js'/>"></script>
 
 <script type="text/javascript" src="<c:url value='/resources/lib/alertify.new.min.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/resources/lib/nprogress.js'/>"></script>

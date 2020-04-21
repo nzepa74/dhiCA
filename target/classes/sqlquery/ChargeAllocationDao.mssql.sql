@@ -1,3 +1,3 @@
-ChargeAllocationDao.checkDuplicateCid = SELECT E.CidNo FROM employee E WHERE CidNo=:cidNo
+ChargeAllocationDao.getList = SELECT C.companyId,C.companyName FROM company C
 
 
