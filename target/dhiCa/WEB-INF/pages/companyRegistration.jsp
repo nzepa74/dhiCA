@@ -41,12 +41,12 @@
             </div>
 
             <div class="form-group row">
-                <label class="col-sm-2 col-form-label"></label>
 
-                <div class="col-sm-10">
+                <div class="offset-sm-2 col-sm-10">
                     <button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
                 </div>
             </div>
+
             <section class="content">
                 <div class="row">
                     <div class="col-12">
@@ -59,22 +59,20 @@
                                 <table id="listTableId" class="table table-bordered table-striped table-hover">
                                     <thead>
                                     <tr>
-                                        <th>Rendering engine</th>
-                                        <th>Browser</th>
-                                        <th>Platform(s)</th>
+                                        <th>Sl. No</th>
+                                        <th>Company ID</th>
+                                        <th>Company Name</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     </tbody>
                                 </table>
                             </div>
-                            <!-- /.card-body -->
                         </div>
                     </div>
-                    <!-- /.col -->
                 </div>
-                <!-- /.row -->
             </section>
+
         </div>
     </div>
 </form>
