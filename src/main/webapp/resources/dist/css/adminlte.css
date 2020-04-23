@@ -31094,16 +31094,3 @@ a.text-muted:hover {
   color: #ffffff;
 }
 /*# sourceMappingURL=adminlte.css.map */
-
-.successMsg {
-    color: #5cb85c;
-}
-
-.errorMsg {
-    color: #d9534f;
-    font-size: 20px;
-}
-
-.warningMsg {
-    color: orange;
-}
